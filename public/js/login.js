@@ -18,7 +18,7 @@ const logOutBtn = document.querySelector('.nav__el--logout');
 const userDataForm = document.querySelector('.form-user-data');
 const userPasswordForm = document.querySelector('.form-user-password');
 const bookBtn = document.getElementById('book-tour');
-const stripe = Stripe('pk_test_51H7jI1GSwSZ1GeCZB7CyOVZJYviohUHzWCwbQdsisJcGZspeqgeDSZGTFAXZUaVikwph94lXS44Hj2IVznI5YNTO00dBGNWCUA');
+
 
 export const bookTour = async tourId => {
   try {
